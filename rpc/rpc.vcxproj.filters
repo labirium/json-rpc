@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\precompiled.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="server\connection.cpp">
+      <Filter>server\source</Filter>
+    </ClCompile>
+    <ClCompile Include="server\connection_manager.cpp">
+      <Filter>server\source</Filter>
+    </ClCompile>
+    <ClCompile Include="server\mime_types.cpp">
+      <Filter>server\source</Filter>
+    </ClCompile>
+    <ClCompile Include="server\reply.cpp">
+      <Filter>server\source</Filter>
+    </ClCompile>
+    <ClCompile Include="server\request_parser.cpp">
+      <Filter>server\source</Filter>
+    </ClCompile>
+    <ClCompile Include="server\server.cpp">
+      <Filter>server\source</Filter>
+    </ClCompile>
+    <ClCompile Include="json\rpcprotocolserverv2.cpp">
+      <Filter>json\source</Filter>
+    </ClCompile>
+    <ClCompile Include="json\requesthandlerfactory.cpp">
+      <Filter>json\source</Filter>
+    </ClCompile>
+    <ClCompile Include="json\abstractprotocolhandler.cpp">
+      <Filter>json\source</Filter>
+    </ClCompile>
+    <ClCompile Include="json\common\exception.cpp">
+      <Filter>json\common</Filter>
+    </ClCompile>
+    <ClCompile Include="json\common\procedure.cpp">
+      <Filter>json\common</Filter>
+    </ClCompile>
+    <ClCompile Include="json\common\errors.cpp">
+      <Filter>json\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\proceduremanager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="json\value.cpp">
+      <Filter>json\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\valueparser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\icallbackfunction.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="json\iprotocol.cpp">
+      <Filter>json\include</Filter>
+    </ClCompile>
+    <ClCompile Include="json\jsonservice.cpp">
+      <Filter>json\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\client.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="source\clientmanager.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="source\connectinfo.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="source\filesystem.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\types.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\precompiled.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc.h">
+      <Filter>header\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\targetver.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="server\connection.hpp">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="server\connection_manager.hpp">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="server\mime_types.hpp">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="server\reply.hpp">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="server\request_parser.hpp">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="server\server.hpp">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\rpcprotocolserverv2.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\requesthandlerfactory.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\abstractprotocolhandler.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\common\procedure.h">
+      <Filter>json\common</Filter>
+    </ClInclude>
+    <ClInclude Include="json\common\exception.h">
+      <Filter>json\common</Filter>
+    </ClInclude>
+    <ClInclude Include="json\common\errors.h">
+      <Filter>json\common</Filter>
+    </ClInclude>
+    <ClInclude Include="json\common\specification.h">
+      <Filter>json\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\proceduremanager.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="json\iprotocol.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\valueparser.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\callbackfunction.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\makecallback.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\icallbackfunction.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="json\jsonservice.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\client.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clientmanager.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="include\command.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="include\connectinfo.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filesystem.h">
+      <Filter>client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{a7514dae-c525-4d4d-b138-471f55efdebc}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{88292a02-f2cd-41fa-8f0f-6c7c615576dc}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="header\public">
+      <UniqueIdentifier>{35f42654-bbba-47c7-bbcc-58e1ae717b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{b2a261b0-62f8-4a3f-af93-1fa95087b719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\source">
+      <UniqueIdentifier>{13f40fd3-3466-4b72-9872-6086c1843d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\include">
+      <UniqueIdentifier>{5d161171-0e0b-4bad-a47e-b7c7b6470389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{bde7b0ec-b5d1-4d06-ae16-d8bd1b40eacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\source">
+      <UniqueIdentifier>{70ef5a94-6a90-4557-92f6-1476bcae9b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\include">
+      <UniqueIdentifier>{1cb13119-eb54-4175-9879-700a1beb89d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\common">
+      <UniqueIdentifier>{9ec08fda-17c9-4f0e-a7f1-f8bad15926da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{a2252072-682f-48b3-988f-00c95cb4948c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
